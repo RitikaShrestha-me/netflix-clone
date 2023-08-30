@@ -1,0 +1,157 @@
+<html>
+	<head>
+		<meta name="description" content="Hello this is my first web page!." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="styles/home.css" />
+
+		<!-- FontAwesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Home - Netflix</title>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<!-- Netflix logo -->
+				<div class="navbar__brand">
+					<img
+						src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+						alt="logo"
+						class="brand__logo"
+					/>
+				</div>
+				<ul class="navbar__links">
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#news">TV Shows</a>
+					</li>
+					<li>
+						<a href="#contact">Movies</a>
+					</li>
+					<li>
+						<a href="#home">Latest</a>
+					</li>
+					<li>
+						<a href="#news">My List</a>
+					</li>
+					<li>
+						<a href="#contact">Browse by Languages</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero">
+				<!-- Background Image -->
+				<div class="hero__video__container">
+					<img
+						src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUvGMrDVxVreW9_Zc9XHYm0xW1NZzctZttAS-UxojWlhqoRYuf9971-WemYMonJzI4yIk-bjktCvcUyPucft0KGoha8pFJSJeSBe.webp?r=989"
+						alt="BG hero image"
+						class="hero__bg-image"
+					/>
+				</div>
+				<!-- video -->
+				<div class="video__contents">
+					<img
+						src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWV3w8y87ESaX-7NbGTppUJwWuGeVHs7g9f1-5n1rb610QuYGk43_Wfz_l_Yfw8tkxBp7OBoSi45SlSKbpfXFjhYzSfsbiACZt4PDUfvIk7h.webp?r=4b0"
+						alt="Video Logo"
+						class="video__logo"
+					/>
+					<div class="video__description">
+						The Vatican's chief exorcist uncovers an evil unlike any he's ever
+						faced when he investigates the possession of a boy living at an
+						ancient Spanish abbey.
+					</div>
+					<div class="video__buttons">
+						<button class="play-btn" onclick="playVideo">
+							<i class="fas fa-play" style="font-size: 25px;"></i
+							><span> Play</span>
+						</button>
+						<button class="info-btn">
+							<i
+								class="far fa-info-circle"
+								style="font-size: 25px; color: #fff"
+							></i>
+							<span> More Info</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="videos">
+				<h4 class="video-list__heading">New Releases</h4>
+				<ul class="video-list">
+					<li class="video-item">
+						<a href="/play.html?id=suits">
+							<img
+								src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRLtg7R1cnhiO_GWnCo-yIx-dHPUjzGeCEg3mQghFFtp5O_9Uh0t6xT07CKldDc2NXvsl6dcZHS1kQoBdzyXonemNrkGh4IhZd4.webp?r=7df"
+								class="video-item__image"
+								alt=""
+							/>
+						</a>
+					</li>
+					<li class="video-item">
+						<a href="/play.html?id=friends">
+							<img
+								src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdFfuoU4rnrXk50fjUjzle0OjZj8Sr40bucK1awD34hMUNwfrljs0-X52ZgBaOpgb52P9G0KZ3_VUhUb7VqJ31Fx8_pIglYJzTc.webp?r=75b"
+								class="video-item__image"
+								alt=""
+							/>
+						</a>
+					</li>
+					<li class="video-item">
+						<a href="/play.html?id=big-bang">
+							<img
+								src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaBZdMIlMgijyhS_fqCzyssLA_y21jkufEH12oBu5V-0zD3VpqGzj-08Np_vu7lUdp_CWjrYCXDyWhTGIOoeLnCIE80V9m1W4XM.webp?r=24d"
+								class="video-item__image"
+								alt=""
+							/>
+						</a>
+					</li>
+					<li class="video-item">
+						<a href="/play.html?id=money-heist">
+							<img
+								src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbzBukwj-wl3qePSdFwS-Nwy6BGO7tIdqQ0oFSWYKqpdhrmIcLeD0CYnBd81oVLyS7eu5sROjfsOCmJmxso3w8xcqDcCdNitNN6nUpm2nLIKIbB7PUAsftFJnfhUpQk0tEi0.jpg?r=8a4"
+								class="video-item__image"
+								alt=""
+							/>
+						</a>
+					</li>
+					<li class="video-item">
+						<a href="/play.html?id=ragnarok">
+							<img
+								src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbth0yDj8JSG7rCfTtMq_vF7jkufYv1gZp8iVGmsZm8t0jlFGAIhWP4O1Mn0I9uGzxPoFHz9GKlu7N4s14YetFhsSVRuwr8rp6ZSqmHGb_8dBdAc6XIyWDbI_u97Ifn_n0DglIrWdARgjDQtVW5Jax7w_BkcvXXh87MvVUxeDVWiqp-zNSYd4NJxfrgHTJMUdrQXrS7XzR8i-p_prSXmo1apvfXgg2iHDpfd8g5zghxCAkn2tqSv1yajIEL8HZecIL3kU-e1vCRrJTZDbvX2cmXWN1OxWC9gRauqZQacMBR8oGq2M3w.jpg?r=ae8"
+								class="video-item__image"
+								alt=""
+							/>
+						</a>
+					</li>
+					<li class="video-item">
+						<a href="/play.html?id=peaky-blinders">
+							<img
+								src="https://occ-0-6554-3662.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeqfT2_-pIeAnhkqj0GpudyhvXhx94AqyF9tkpneVdXu-3OATs6WlyyJJGhDCI9f8aYJJShAluJXN888F2NuB1cdlle-7Ky89bq8VkR-ilzL8yy5sT_4nUedoHC5jun8INFE.jpg?r=a07"
+								class="video-item__image"
+								alt=""
+							/>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+
+		<script src="src/home.js"></script>
+	</body>
+</html>

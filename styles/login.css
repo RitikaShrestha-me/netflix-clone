@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Top Navbar */
+.navbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 5%;
+	z-index: 10;
+}
+
+.navbar__brand {
+	width: 180px;
+	height: 100%;
+}
+
+.brand__logo {
+	width: 100%;
+	height: 100%;
+}
+
+/* Hero bg */
+.hero__bg-image__container {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.hero__bg-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Sign in box */
+.login__container {
+	position: absolute;
+	top: 0%;
+	width: 100vw;
+	height: 100vh;
+}
+
+.login__box {
+	min-width: 380px;
+	padding: 60px;
+	position: relative;
+	margin: 12vh 32vw 10vh;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.login-form {
+	margin-bottom: 60px;
+}
+
+.login-form h1 {
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+
+.login-form input {
+	border: 0;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 20px;
+	background: #333;
+}
+
+.login__button {
+	border: 0;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 24px 0 12px;
+	padding: 16px;
+	max-width: 100%;
+	width: 100%;
+	background: #e50914;
+	color: white;
+}
+
+.login__sign-up-now {
+	color: #737373;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 16px;
+}
+
+.login__sign-up-now a {
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0;
+	text-decoration: none;
+}
+
+.login__recaptcha-details {
+	color: #8c8c8c;
+	font-size: 13px;
+	margin: 16px 0;
+}
+
+.learn-more {
+	background-color: transparent;
+	border: none;
+	color: #0071eb;
+	cursor: pointer;
+	display: inline;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0;
+	text-decoration: none;
+}
+
+/* border-color: red;
+border-width: 2px;
+border-style: double; */

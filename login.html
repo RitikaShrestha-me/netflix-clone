@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta name="description" content="Hello this is my first web page!." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="styles/login.css" />
+
+		<!-- FontAwesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Netflix</title>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar">
+				<!-- Netflix logo -->
+				<div class="navbar__brand">
+					<img
+						src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
+						alt="logo"
+						class="brand__logo"
+					/>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero">
+				<!-- Background Image -->
+				<div class="hero__bg-image__container">
+					<img
+						src="https://assets.nflxext.com/ffe/siteui/vlv3/00103100-5b45-4d4f-af32-342649f1bda5/648a5710-88d5-403d-8dbf-bbe80a72bb90/NP-en-20230821-popsignuptwoweeks-perspective_alpha_website_small.jpg"
+						alt="BG hero image"
+						class="hero__bg-image"
+					/>
+				</div>
+				<!-- Sign in box -->
+				<div class="login__container">
+					<div class="login__box">
+						<div class="login-form">
+							<h1>Sign In</h1>
+							<input
+								id="id__email"
+								class="login__input__login-id"
+								type="text"
+								placeholder="Email or Phone Number"
+							/>
+							<input
+								id="id__password"
+								class="login__input__password"
+								type="password"
+								placeholder="Password"
+							/>
+							<button
+								id="js__login__button"
+								class="login__button"
+								type="submit"
+								autocomplete="off"
+							>
+								Sign In
+							</button>
+						</div>
+
+						<div class="login__extra-details">
+							<div class="login__sign-up-now">
+								New to Netflix? <a href="/index.html"> Sign up now. </a>
+							</div>
+							<p class="login__recaptcha-details">
+								This page is protected by Google reCAPTCHA to ensure you're not
+								a bot.<a class="learn-more" href="/index.html"> Learn more. </a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="src/login.js"></script>
+	</body>
+</html>

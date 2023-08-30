@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+	background-color: rgb(20, 20, 20);
+	position: fixed;
+	width: 100%;
+	display: flex;
+	padding: 10px 4% 10px;
+	z-index: 10;
+	top: 0;
+}
+
+.navbar__links {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 18px;
+}
+
+.navbar__links li {
+	list-style-type: none;
+	cursor: pointer;
+}
+.navbar__links li a {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.navbar a {
+	color: white;
+	text-align: center;
+	padding: 15px;
+	float: left;
+	display: block;
+}
+
+.navbar__brand {
+	width: 100px;
+	height: 100%;
+	margin-top: 12px;
+}
+
+.brand__logo {
+	width: 100%;
+	height: 100%;
+}
+
+.hero__bg-image {
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* Hero content */
+.video__contents {
+	position: absolute;
+	top: 20%;
+	width: 40%;
+	margin: 0 40px 0;
+}
+
+.video__description {
+	margin: 20px 0;
+}
+.video__buttons {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.play-btn {
+	border: 0;
+	padding: 5px 20px 5px 24px;
+	/* padding-left: 20px;
+	padding-right: 24px; */
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+.info-btn {
+	border: 0;
+	padding-left: 20px;
+	padding-right: 24px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(109, 109, 110, 0.7);
+}
+
+.play-btn span {
+	font-size: 18px;
+	font-weight: 600;
+	padding-left: 8px;
+	line-height: 2.4rem;
+}
+.info-btn span {
+	font-size: 18px;
+	font-weight: 600;
+	padding-left: 8px;
+	line-height: 2.4rem;
+	color: white;
+}
+
+/* Video List */
+.videos {
+	margin-top: -80px;
+}
+.video-list {
+	display: flex;
+	overflow: scroll;
+	gap: 4px;
+	padding: 0 40px 20px;
+}
+.video-list__heading {
+	padding: 0 40px 10px;
+}
+
+.video-item {
+	border-radius: 5px;
+	list-style-type: none;
+}
+
+.video-item__image {
+	cursor: pointer;
+	border-radius: 5px;
+	height: 135px;
+}
