@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.my-list__movies {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	padding: 20px 50px;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.title {
+	margin: 50px 100px 0;
+}
