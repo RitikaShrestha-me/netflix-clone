@@ -133,6 +133,6 @@ body {
 	text-decoration: none;
 }
 
-/* border-color: red;
-border-width: 2px;
-border-style: double; */
+.error {
+	color: #e50914;
+}
